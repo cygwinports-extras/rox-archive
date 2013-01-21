@@ -1,0 +1,13 @@
+inherit rox
+
+NAME="rox-archive"
+VERSION=2.2
+RELEASE=2
+CATEGORY="ROX"
+SUMMARY="ROX archive manager"
+
+SRC_URI="mirror://sourceforge/rox/${ORIG_PN}-${PV}.tar.bz2"
+
+ROX_APP="Archive"
+
+REQUIRES="bzip2 cpio gzip rpm sharutils tar unace unzip xz zip"
